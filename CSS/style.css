@@ -3,6 +3,20 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+.nav-h1 {
+    font-size: 1.9rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    border-top: 3px solid lightgray;
+    width: 25vw;
+    text-align: start;
+    padding: 15px;
 }
 
 .side-nav {
@@ -10,8 +24,13 @@
     width: 25vw;
     display: grid;
     height: 100vh;
-    border-right: 3px solid gray;
-    justify-content: center;
+    border-right: 3px solid lightgray;
+    text-align: center;
+}
+
+.main-section {
+    display: grid;
+    gap: 10px;
 }
 
 .sections {
@@ -41,9 +60,15 @@
 
 .code {
     font-family: monospace;
+    font-size: 0.7rem;
     background-color: #f7f7f7;
     margin-left: 8px;
     padding: 16px;
+    margin-right: 52px;
     border-radius: 5px;
     line-height: 200%;
+}
+
+.section-h2 {
+    font-size: 1.7rem;
 }
