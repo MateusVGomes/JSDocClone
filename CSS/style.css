@@ -20,16 +20,19 @@ main {
     width: 25vw;
     text-align: start;
     padding: 15px;
+
 }
 .nav-links-container{  
     width: 25vw;
     display: grid;
     height: 100vh;
+
 }
 
 .side-nav {
     position: fixed;
     border-right: 3px solid lightgray;
+    overflow:auto;
   
 }
 
