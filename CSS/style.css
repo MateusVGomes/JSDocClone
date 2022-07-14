@@ -2,8 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
     font-size: 18px;
+}
+
+main {
+    font-family: "Inter", sans-serif;
 }
 
 .nav-h1 {
@@ -58,17 +61,38 @@
     padding-right: 125px;
 }
 
+.subexample {
+    display: grid;
+    gap: 10px;
+    padding-left: 50px;
+    padding-right: 125px;
+    list-style: circle;
+}
+
 .code {
     font-family: monospace;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
+    line-height: 0.5;
     background-color: #f7f7f7;
     margin-left: 8px;
     padding: 16px;
     margin-right: 52px;
     border-radius: 5px;
     line-height: 200%;
+    white-space: pre-line;
 }
 
 .section-h2 {
     font-size: 1.7rem;
+}
+
+code {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 0.7rem;
+}
+
+@media only screen and (max-width:1000px) {
+    * {
+        display: none
+    }
 }
