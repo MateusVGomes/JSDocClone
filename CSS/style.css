@@ -21,16 +21,16 @@ main {
     text-align: start;
     padding: 15px;
 }
-
-.side-nav {
-    position: fixed;
+.nav-links-container{  
     width: 25vw;
     display: grid;
     height: 100vh;
+}
+
+.side-nav {
+    position: fixed;
     border-right: 3px solid lightgray;
-    text-align: center;
-    overflow:auto;
-    white-space: nowrap;
+  
 }
 
 .main-section {
